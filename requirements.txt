@@ -7,7 +7,7 @@ django-debug-toolbar
 greeking
 flake8
 psycopg2
-pycrypto
+pycryptodome
 pyflakes
 python-coveralls
 python-memcached
