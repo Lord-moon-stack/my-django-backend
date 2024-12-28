@@ -1,3 +1,5 @@
+import os
+
 DEBUG = False
 DEVELOPMENT, PRODUCTION = False, True
 DEBUG_TOOLBAR = False
