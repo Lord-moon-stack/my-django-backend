@@ -177,9 +177,9 @@ LOGGING = {
 
 # Local settings
 try:
-    from settings_dev import *
+    from .settings_dev import *
 except ImportError:
-    from settings_prod import *
+    from .settings_prod import *
 TEMPLATE_DEBUG = DEBUG
 
 # Django debug toolbar configuration
