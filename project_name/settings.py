@@ -85,7 +85,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-ROOT_URLCONF = '{{ project_name }}.urls'
+ROOT_URLCONF = 'myproject.urls'
 USE_X_FORWARDED_HOST = True
 
 
