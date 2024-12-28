@@ -155,7 +155,7 @@ LOGGING = {
     'formatters': {
         'verbose': {
             'format': ('%(levelname)s|%(asctime)s|%(module)s'
-                       '|%(process)d|%(thread)d|%(message)s')
+                       '|%(process)d|%(thread)d|%(message)s'),
             'datefmt': "%d/%b/%Y %H:%M:%S"
         },
         'simple': {
